@@ -1,0 +1,15 @@
+{
+  "biases": [
+    {"key":"fluency","name":"Fluency / Cognitive Ease","definition":"People prefer options that are easy to process and understand.","copy_patterns":["Short, scannable bullets","Plan + 3D first","Clear next-step CTAs"],"cadence_patterns":[{"window":"Morning 9–11a"},{"window":"Lunch 12–2p"},{"window":"Evening 5–8p"}],"compatible_services":["F2D","Z3D","P25","QS3"]},
+    {"key":"mere-exposure","name":"Mere Exposure","definition":"Repeated exposure increases liking and recall.","copy_patterns":["3-post sequence","Retargeting snippets","Reel variations"],"cadence_patterns":[{"window":"Morning 9–11a"},{"window":"Evening 5–8p"}],"compatible_services":["QS3","SSQ","Z3D"]},
+    {"key":"anchoring","name":"Anchoring","definition":"Initial high benchmark shapes value perception.","copy_patterns":["Lead with hero feature","Premium comparables"],"cadence_patterns":[{"window":"Morning 9–11a"}],"compatible_services":["VLX","MMF","TVU"]},
+    {"key":"novelty","name":"Novelty / Distinctiveness","definition":"New or distinctive content captures attention.","copy_patterns":["Unexpected angle first","Cut density 2s"],"cadence_patterns":[{"window":"Lunch 12–2p"}],"compatible_services":["GEL","QS1","AVS"]},
+    {"key":"authority","name":"Authority","definition":"On-camera expertise and premium craft increase trust.","copy_patterns":["On-cam intro","Credentials lower third"],"cadence_patterns":[{"window":"Evening 5–8p"}],"compatible_services":["MMF","VLX","MPT"]},
+    {"key":"social-proof","name":"Social Proof","definition":"People follow the crowd when uncertain.","copy_patterns":["Show saves/showings","Testimonials"],"cadence_patterns":[{"window":"Morning 9–11a"}],"compatible_services":["Z3D","QS3","AVS"]},
+    {"key":"loss-aversion","name":"Loss Aversion","definition":"Fear of missing out motivates action.","copy_patterns":["Scarcity phrasing MLS-safe","Limited windows"],"cadence_patterns":[{"window":"Evening 5–8p"}],"compatible_services":["QS1","AVS"]},
+    {"key":"choice-architecture","name":"Choice Architecture","definition":"Designing options nudges decisions without restricting choice.","copy_patterns":["Three clear tiers","Default recommended"],"cadence_patterns":[{"window":"Morning 9–11a"}],"compatible_services":["F2D","TVU"]},
+    {"key":"peak-end","name":"Peak-End Rule","definition":"People remember the peak moment and the ending most.","copy_patterns":["Standout reveal","Clean CTA close"],"cadence_patterns":[{"window":"Evening 5–8p"}],"compatible_services":["GEL","TSR"]},
+    {"key":"framing","name":"Framing","definition":"Presentation changes perception without changing facts.","copy_patterns":["Low-maintenance vs small","View-forward language"],"cadence_patterns":[{"window":"Lunch 12–2p"}],"compatible_services":["EXO","VS3"]},
+    {"key":"endowment-effect","name":"Endowment Effect","definition":"Interactive tools increase psychological ownership.","copy_patterns":["Invite to measure in 3D","Plan before showing"],"cadence_patterns":[{"window":"Morning 9–11a"}],"compatible_services":["MPT","F2D"]}
+  ]
+}
