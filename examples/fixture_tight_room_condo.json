@@ -1,0 +1,17 @@
+{
+  "property_type":"condo",
+  "beds":2,
+  "baths":1,
+  "interior_size_sqft":820,
+  "condition_band":"updated",
+  "tight_small_rooms":true,
+  "natural_light_quality":"mixed",
+  "occupancy":"occupied",
+  "odd_quirky_flow":true,
+  "signature_feature":"Walk-to-metro location; compact bedrooms",
+  "likely_buyer_profile":"Remote buyers screening online first",
+  "location_perk":"Transit + grocery block",
+  "timeline_pressure":"normal",
+  "agent_on_camera_comfort":"low",
+  "showing_window_limits":"Evenings only"
+}
