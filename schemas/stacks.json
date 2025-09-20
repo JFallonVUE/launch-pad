@@ -1,0 +1,24 @@
+{
+  "$schema":"http://json-schema.org/draft-07/schema#",
+  "title":"Stacks",
+  "type":"object",
+  "properties":{
+    "stacks":{
+      "type":"array",
+      "items":{
+        "type":"object",
+        "properties":{
+          "tier":{"type":"string","enum":["High","Medium","Low"]},
+          "services":{"type":"array","items":{"type":"object","properties":{
+            "service_id":{"type":"string"},
+            "name":{"type":"string"},
+            "rationale":{"type":"string"}
+          },"required":["service_id"]}},
+          "rationale":{"type":"string"}
+        },
+        "required":["tier","services","rationale"]
+      }
+    }
+  },
+  "required":["stacks"]
+}
