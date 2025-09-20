@@ -1,0 +1,35 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "LightingIntake",
+  "type": "object",
+  "required": ["answers"],
+  "properties": {
+    "answers": {
+      "type": "object",
+      "required": [
+        "property_type","beds","baths","interior_size_sqft","condition_band",
+        "tight_small_rooms","natural_light_quality","occupancy","odd_quirky_flow",
+        "signature_feature","likely_buyer_profile","location_perk","timeline_pressure",
+        "agent_on_camera_comfort","showing_window_limits"
+      ],
+      "properties": {
+        "property_type":{"type":"string","enum":["sfr","condo","townhome","multi","land"]},
+        "beds":{"type":"integer","minimum":0},
+        "baths":{"type":"number","minimum":0},
+        "interior_size_sqft":{"type":"integer","minimum":0},
+        "condition_band":{"type":"string","enum":["dated","average","updated","luxury"]},
+        "tight_small_rooms":{"type":"boolean"},
+        "natural_light_quality":{"type":"string","enum":["poor","mixed","good","great"]},
+        "occupancy":{"type":"string","enum":["vacant","occupied"]},
+        "odd_quirky_flow":{"type":"boolean"},
+        "signature_feature":{"type":"string"},
+        "likely_buyer_profile":{"type":"string"},
+        "location_perk":{"type":"string"},
+        "timeline_pressure":{"type":"string","enum":["urgent","fast","normal","flexible"]},
+        "agent_on_camera_comfort":{"type":"string","enum":["low","medium","high"]},
+        "showing_window_limits":{"type":"string"}
+      },
+      "additionalProperties": false
+    }
+  }
+}
