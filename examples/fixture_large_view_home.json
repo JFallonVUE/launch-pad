@@ -1,0 +1,17 @@
+{
+  "property_type":"sfr",
+  "beds":5,
+  "baths":4.5,
+  "interior_size_sqft":4200,
+  "condition_band":"luxury",
+  "tight_small_rooms":false,
+  "natural_light_quality":"great",
+  "occupancy":"occupied",
+  "odd_quirky_flow":false,
+  "signature_feature":"Panoramic view wall; outdoor room",
+  "likely_buyer_profile":"Luxury upgraders",
+  "location_perk":"Ridge-top cul-de-sac",
+  "timeline_pressure":"fast",
+  "agent_on_camera_comfort":"high",
+  "showing_window_limits":"Open houses weekends"
+}
