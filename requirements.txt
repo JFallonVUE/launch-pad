@@ -1,0 +1,11 @@
+fastapi==0.115.0
+uvicorn[standard]==0.30.6
+pydantic==2.9.2
+sqlmodel==0.0.21
+openai==1.45.0
+python-docx==1.1.2
+pandas==2.2.2
+xlrd==2.0.1
+ruff==0.6.9
+black==24.8.0
+pytest==8.3.3
